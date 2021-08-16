@@ -6,4 +6,4 @@ Para executar a aplicação você deve entrar na pasta **api-node** e executar o
 nodemon server.js
 ```
 
-Apos isso você deve abrir o arquivo **index.html** na raiz do projeto.
+Após isso você deve abrir o arquivo **index.html** na raiz do projeto.
