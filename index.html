@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Vtrina</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+<script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Buscador de Endereço</h2>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input id="cep" type="text" class="cep form-control" size="8" placeholder="Digite o CEP...">
+                <div class="valid-feedback">
+                    Tudo certo!!
+                  </div>
+                <div class="invalid-feedback">
+                    Por favor digite um CEP valido.
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="logradouro">Logradouro:</label>
+                <input disabled id="logradouro" class="logradouro form-control" type="text" size="60" />
+            </div>
+        
+            <div class="form-group">
+                <label for="bairro">Bairro:</label>
+                <input disabled id="bairro" class="bairro form-control" type="text" size="60" />
+            </div>
+        
+            <div class="form-group">
+                <label for="localidade">Localidade:</label>
+                <input disabled id="localidade" class="localidade form-control" type="text" size="60" />
+            </div>
+        
+            <div class="form-group">
+                <label for="uf">UF:</label>
+                <input disabled id="uf" class="uf form-control" type="text" size="60" />
+            </div>
+        
+            <div class="form-group">
+                <label for="ibge">IBGE:</label>
+                <input disabled id="ibge" class="ibge form-control" type="text" size="60" />
+            </div>
+        
+            <div class="form-group">
+                <label for="ddd">DDD:</label>
+                <input disabled id="ddd" class="ddd form-control" type="text" size="60" />
+            </div>
+
+          </div>
+        </div>
+    </div> 
+</body>
+</html>
